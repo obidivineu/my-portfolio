@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Light Mode Styles */
+.body {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #EFEFEF;
+  color: #000;
+  /* background: black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  height: 10%;
+  margin-top: -9px;
+  width: 100%;
+  background-color: #EFEFEF;
+  padding: 5px;
+  display: flex;
+  /* background-color: red; */
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+}
+
+.leftDiv {
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30%;
+}
+
+.leftDiv p {
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+  color: #00f;
+  font-family: Poppins, sans-serif;
+}
+
+.rightDiv {
+  height: 90%;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.toggleDarkMode {
+  cursor: pointer;
+  width: 40%;
+  /* background-color: red; */
+}
+
+.navText {
+  height: 100%;
+  font-family: Poppins, sans-serif;
+  width: 40%;
+  text-decoration: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navText:hover {
+  color: #00f;
+}
+
+.heropage {
+  height: 100vh;
+  width: 100%;
+  border-bottom-left-radius: 20%;
+  background-color: white;
+  background-image: url(https://ebukanweje.github.io/ebuka-portfolio/assets/images/header-shapesmobile@2x.svg);
+  box-shadow: #959da533 0 8px 24px;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  background-size: 100vw 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.herotext {
+  width: 30%;
+  margin-left: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.herotext h1 {
+  font-family: Poppins, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  color: #172b4d;
+  margin-bottom: 10px;
+}
+
+.paragraphtext {
+  font-size: 18px;
+  text-align: justify;
+}
+
+.letsconnectholder {
+  display: flex;
+  align-items: center;
+}
+
+.letsconnect {
+  color: #00f;
+  font-size: 18px;
+  gap: 10px;
+}
+
+.Here {
+  color: red;
+}
+
+.dropicon {
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.boxD {
+  width: 90%;
+  /* height: 100%; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.fristbox {
+  height: 400px;
+  width: 95%;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  margin-top: 70px;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.fristbox span {
+  font-size: 20px;
+}
+
+.imagebox {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+}
+
+.imagebox img {
+  height: 95%;
+  width: 95%;
+}
+
+.text {
+  height: 90%;
+  width: 50%;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  padding-inline-start: 10px;
+}
+
+.text h1 {
+  margin-top: 10px;
+  text-decoration: underline;
+}
+
+.writes {
+  /* height: 90px; */
+  width: 100%;
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  display: flex;
+  /* background-color: red; */
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+}
+.bgtext{
+  display: flex;
+  gap: 15px;
+}
+.writes span {
+  font-family: Poppins, sans-serif;
+}
+.bgdiv {
+  width: 100px;
+  height: 30px;
+  background-color: #ebebff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.bgdiv p {
+  font-family: Poppins, sans-serif;
+  Font-size: 16px;
+  Font-weight: 400;
+  Line-height: normal;
+  color: #3b4eff;
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.dark-mode .header {
+  background-color: #121212;
+}
+
+.dark-mode .leftDiv p {
+  color: #ffcc00;
+  /* Yellow color for name in dark mode */
+}
+
+.dark-mode .navText:hover {
+  color: #ffcc00;
+  /* Yellow color for hovered links in dark mode */
+}
+
+.dark-mode .heropage {
+  background-color: #121212;
+}
+
+.dark-mode .herotext h1 {
+  color: #ffffff;
+  /* White color for h1 in dark mode */
+}
+
+.dark-mode .paragraphtext {
+  color: #ffffff;
+  /* White color for paragraph text in dark mode */
+}
+
+.dark-mode .letsconnect {
+  color: #ffcc00;
+  /* Yellow color for "Let's Connect" in dark mode */
+}
+
+.dark-mode .Here {
+  color: #ff0000;
+  /* Red color for "Here" in dark mode */
+}
+
+.dark-mode .dropicon {
+  color: #ffcc00;
+  /* Yellow color for drop icon in dark mode */
+}
+
+.dark-mode .fristbox {
+  background-color: #1a1a1a;
+  /* Dark gray background for project box in dark mode */
+}
+
+.dark-mode .text {
+  color: #ffffff;
+  /* White color for text in dark mode */
+}
+
+.dark-mode .writes {
+  color: #ffffff;
+  /* White color for writes section in dark mode */
+}
+/* .dark-mode .bgdiv p{
+  color: #ffcc00;
+} */
